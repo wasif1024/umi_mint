@@ -1,0 +1,36 @@
+{
+    "defaultSeverity": "error",
+    "extends": [],
+    "jsRules": {"no-empty": true},
+    "rules": {
+        "trailing-comma": [
+            false
+        ],
+        "no-var-requires": false,
+        "no-console": false,
+        "prefer-for-of": false,
+        "class-name": false,
+"export-name": false,
+"forin": false,
+"label-position": false,
+"member-access": true,
+"no-arg": false,
+"no-construct": false,
+"no-duplicate-variable": true,
+"no-eval": false,
+"no-internal-module": true,
+"no-switch-case-fall-through": true,
+"no-unused-expression": true,
+"semicolon": true,
+"typedef": false,
+"typedef-whitespace": false,
+"variable-name": false,
+"whitespace": false
+    },
+    "linterOptions": {
+        "exclude": [
+            "**/*.js"
+        ]
+    },
+    "rulesDirectory": []
+}
